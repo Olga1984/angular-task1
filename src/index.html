@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="document">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,8 +32,8 @@
             </div>
             <h3 class="main-title">What is Lorem Ipsum?</h3>
             <div class="content-wrapper" ng-controller="DocumentController as controller">
-                <nav class="sidebarbar">
-                    <a class="nav-link">Item</a>
+                <nav class="sidebar">
+                    <a ng-repeat="item in controller.sidebarItems" class="nav-link">{{ item.sidebarItemTitle }} ({{ item.count }})</a>
                 </nav>
                 <div class="content">
                     <div class="card-deck">

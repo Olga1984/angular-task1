@@ -1,46 +1,46 @@
 {
-  "name": "angular-task1",
-  "version": "1.0.0",
-  "description": "Angular Task 1",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./node_modules/gulp/bin/gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Olga1984/angular-task1"
-  },
-  "author": "SWAT Team",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MagicCurlyHair/angular-task1/issues"
-  },
-  "homepage": "https://github.com/MagicCurlyHair/angular-task1#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.3.1",
-    "babelify": "^10.0.0",
-    "browser-sync": "^2.26.3",
-    "browserify": "^16.2.3",
-    "eslint": "^5.14.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.0",
-    "gulp": "^4.0.0",
-    "gulp-angular-templatecache": "^2.2.6",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-eslint": "^5.0.0",
-    "gulp-inject": "^5.0.2",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.1",
-    "node-sass": "^4.11.0",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
-  },
-  "dependencies": {
-    "angular": "^1.7.7"
-  }
+    "name": "angular-task1",
+    "version": "1.0.0",
+    "description": "Angular Task 1",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./node_modules/gulp/bin/gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Olga1984/angular-task1"
+    },
+    "author": "SWAT Team",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MagicCurlyHair/angular-task1/issues"
+    },
+    "homepage": "https://github.com/MagicCurlyHair/angular-task1#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.3.3",
+        "@babel/preset-env": "^7.3.1",
+        "babelify": "^10.0.0",
+        "browser-sync": "^2.26.3",
+        "browserify": "^16.2.3",
+        "eslint": "^5.14.1",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-react": "^7.11.0",
+        "gulp": "^4.0.0",
+        "gulp-angular-templatecache": "^2.2.6",
+        "gulp-clean-css": "^4.0.0",
+        "gulp-eslint": "^5.0.0",
+        "gulp-inject": "^5.0.2",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.1",
+        "node-sass": "^4.11.0",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
+    },
+    "dependencies": {
+        "angular": "^1.7.7"
+    }
 }

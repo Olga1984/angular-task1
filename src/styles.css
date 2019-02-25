@@ -1,0 +1,73 @@
+/* line 1, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+.app {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: greenyellow; }
+  /* line 6, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+  .app .header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; }
+    /* line 12, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .header .navbar-toggler {
+      width: 50px;
+      height: 50px;
+      background-color: black; }
+    /* line 21, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .header .logo {
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-color: aqua; }
+  /* line 29, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+  .app .container .search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 0 5%; }
+    /* line 35, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .container .search-bar .site-search {
+      width: 90%;
+      height: 40px; }
+    /* line 39, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .container .search-bar .search-btn {
+      width: 10%; }
+  /* line 43, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+  .app .container .main-title {
+    text-align: left;
+    margin: 10px; }
+  /* line 47, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+  .app .container .content-wrapper {
+    display: flex;
+    justify-content: space-between; }
+    /* line 51, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .container .content-wrapper .sidebar {
+      width: 25%;
+      background-color: red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px; }
+      /* line 58, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+      .app .container .content-wrapper .sidebar .nav-link {
+        height: 40px;
+        font-weight: 600; }
+    /* line 63, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .container .content-wrapper .content {
+      width: 75%; }
+      /* line 67, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+      .app .container .content-wrapper .content .card-deck .card {
+        padding: 20px; }
+  /* line 82, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+  .app .page-footer {
+    text-align: center; }
+    /* line 85, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .page-footer .footer-copyright {
+      height: 30px;
+      background-color: gray; }
+    /* line 89, /Users/volha_kireyeva/Desktop/angular-task1/src/styles.scss */
+    .app .page-footer .footer-container {
+      height: 20px;
+      background-color: darkgrey; }
+
+/*# sourceMappingURL=styles.css.map */
