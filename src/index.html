@@ -33,7 +33,7 @@
             <h3 class="main-title">What is Lorem Ipsum?</h3>
             <div class="content-wrapper" ng-controller="DocumentController as controller">
                 <nav class="sidebar">
-                    <a ng-repeat="item in controller.sidebarItems" class="nav-link">{{ item.sidebarItemTitle }} ({{ item.count }})</a>
+                    <a ng-repeat="item in controller.documents" class="nav-link">{{ item.category }} ({{ item.count }})</a>
                 </nav>
                 <div class="content">
                     <div class="card-deck">
