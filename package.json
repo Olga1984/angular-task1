@@ -1,0 +1,19 @@
+{
+  "name": "angular-task1",
+  "version": "1.0.0",
+  "description": "Angular Task 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olga1984/angular-task1"
+  },
+  "author": "SWAT Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicCurlyHair/angular-task1/issues"
+  },
+  "homepage": "https://github.com/MagicCurlyHair/angular-task1#readme"
+}
