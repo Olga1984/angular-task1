@@ -31,6 +31,7 @@
     "gulp": "^4.0.0",
     "gulp-angular-templatecache": "^2.2.6",
     "gulp-clean-css": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
     "gulp-inject": "^5.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
