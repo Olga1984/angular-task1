@@ -1,10 +1,11 @@
 const browserSync = require('browser-sync');
 const gulp = require('gulp');
-const { compileJs, compileSass, injectBundles } = require('./build');
+const { compileJs, compileSass, injectBundles, lintJs } = require('./build');
 
 function watchJs() {
     return gulp.watch('./src/**/*.js', done => {
         compileJs();
+        lintJs();
         browserSync.reload();
         done()
     });
