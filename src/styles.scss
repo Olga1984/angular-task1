@@ -1,0 +1,90 @@
+.app {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: greenyellow;
+
+  .header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .navbar-toggler {
+      width: 50px;
+      height: 50px;
+      background-color: black;
+
+      .hamburger {
+        .hamburger__patty {
+
+        }
+      }
+    }
+    .logo {
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-color: aqua;
+    }
+  }
+  .container {
+    .search-bar {
+
+      display: flex;
+      justify-content: center;
+      margin: 0 5%;
+
+      .site-search {
+        width: 90%;
+        height: 40px;
+      }
+      .search-btn {
+        width: 10%;
+      }
+    }
+    .main-title {
+      text-align: center;
+    }
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    .main-title {
+      background-color: darkgrey;
+    }
+    .sidebarbar {
+      width: 25%;
+      background-color: red;
+
+      .nav-link {
+
+      }
+    }
+    .content {
+      width: 75%;
+
+      .card-deck {
+        .card {
+          .card-body {
+            .card-title {}
+            .card-text {
+
+            }
+          }
+        }
+      }
+    }
+  }
+  .page-footer {
+    text-align: center;
+
+    .footer-copyright {
+      height: 50px;
+      background-color: gray;
+    }
+    .footer-container {
+      height: 40px;
+      background-color: darkgrey;
+    }
+  }
+}
