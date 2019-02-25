@@ -7,8 +7,15 @@ const uglify = require('gulp-uglify');
 const sass = require('gulp-sass');
 const cleanCss = require('gulp-clean-css');
 const inject = require('gulp-inject');
+const eslint = require('gulp-eslint');
 
 sass.compiler = require('node-sass');
+
+function lintJs() {
+    return gulp.src('../src/**/*.js')
+        .pipe(eslint())
+        .pipe(eslint.format())
+}
 
 function compileJs() {
     return browserify('../src/index.js')
@@ -37,6 +44,7 @@ function injectBundles() {
 }
 
 module.exports = {
+    lintJs,
     compileJs,
     compileSass,
     injectBundles
