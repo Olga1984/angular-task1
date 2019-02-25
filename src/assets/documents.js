@@ -1,32 +1,32 @@
-export const mockDocuments = [
+export default [
     {
         headline: 'Something happend',
-        text: 'Something really important happened somewhere today',
-        views: 123
+        text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
+        views: 123,
     },
     {
         headline: 'Something happend',
-        text: 'Something really important happened somewhere today',
-        views: 412
+        text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
+        views: 412,
     },
     {
         headline: 'Something happend',
-        text: 'Something really important happened somewhere today',
-        views: 654
+        text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
+        views: 654,
     },
     {
         headline: 'Something happend',
-        text: 'Something really important happened somewhere today',
-        views: 87
+        text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
+        views: 87,
     },
     {
         headline: 'Something happend',
-        text: 'Something really important happened somewhere today',
-        views: 90132
+        text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
+        views: 90132,
     },
     {
         headline: 'Something happend',
-        text: 'Something really important happened somewhere today',
-        views: 1241
-    }
-]
+        text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
+        views: 1241,
+    },
+];
