@@ -1,24 +1,35 @@
 const browserSync = require('browser-sync');
-const { compileJs, compileSass } = require('./build');
+const gulp = require('gulp');
+const { compileJs, compileSass, injectBundles } = require('./build');
 
 function watchJs() {
-    return gulp.watch('../src/**/*.js', () => {
+    return gulp.watch('./src/**/*.js', done => {
         compileJs();
         browserSync.reload();
+        done()
     });
 }
 
 function watchSass() {
-    return gulp.watch('../src/**/*.scss', () => {
+    return gulp.watch('./src/**/*.scss', done => {
         compileSass();
         browserSync.reload();
+        done()
     });
+}
+
+function watchHtml(done) {
+    return gulp.watch('./src/index.html', done => {
+        injectBundles();
+        browserSync.reload();
+        done();
+    })
 }
 
 function hotReload() {
     browserSync.init({
         server: {
-            baseDir: '../dist'
+            baseDir: './dist',
         }
     })
 }
@@ -26,5 +37,6 @@ function hotReload() {
 module.exports = {
     watchJs,
     watchSass,
+    watchHtml,
     hotReload
 }
