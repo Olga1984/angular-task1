@@ -1,14 +1,16 @@
 import angular from 'angular';
-import { mockDocuments } from '../assets/documents';
+import mockDocuments from '../assets/documents';
 
-const documentModule = angular.module('document', []);
-documentModule.service('documentService', function documentService() {
+const documentModule = angular.module('document');
+documentModule.service('documentService', ['$q', function documentService($q) {
+    const documents = [];
     function getDocuments() {
-        return Promise.resolve(mockDocuments);
+        $q.resolve(mockDocuments).then(updatedDocs => documents.push(...updatedDocs));
     }
     return {
-        getDocuments
-    }
-});
+        documents,
+        getDocuments,
+    };
+}]);
 
 export default documentModule;
