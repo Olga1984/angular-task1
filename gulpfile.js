@@ -1,6 +1,6 @@
 const { series, parallel } = require('gulp');
 const { lintJs, compileJs, compileSass, injectBundles } = require('./gulp/build');
-const { watchJs, watchSass, hotReload } = require('./gulp/hotReload');
+const { watchJs, watchSass, watchHtml, hotReload } = require('./gulp/hotReload');
 
 exports.default = series(
     parallel(
@@ -12,6 +12,7 @@ exports.default = series(
     parallel(
         watchJs,
         watchSass,
+        watchHtml,
         hotReload
     )
 );
