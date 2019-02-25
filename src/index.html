@@ -15,38 +15,40 @@
 
 <body>
     <div class="app">
+        <!--Header-->
         <header class="header">
             <img class="logo" src="" alt="logo">
             <button class="navbar-toggler">
-                <div class="hamburger">
-                    <div class="hamburger__patty"></div>
-                    <div class="hamburger__patty"></div>
-                    <div class="hamburger__patty"></div>
-                </div>
+                <div class="hamburger">Menu</div>
             </button>
         </header>
-        <main class="container">
-            <div class="search-bar">
-                <input class="site-search" type="search" id="site-search" placeholder="Search through site content">
-                <button class="search-btn">Search</button>
-            </div>
-            <h3 class="main-title">What is Lorem Ipsum?</h3>
-            <div class="content-wrapper" ng-controller="DocumentController as controller">
-                <nav class="sidebar">
-                    <a ng-repeat="item in controller.documents" class="nav-link">{{ item.category }} ({{ item.count }})</a>
-                </nav>
+        <!--/.Header-->
+        <!--Main-->
+        <main class="container" ng-controller="DocumentController as controller">
+            <nav class="sidebar">
+                <a ng-repeat="item in controller.filteredArticles" class="nav-link">{{ item.filteredCategoryName }} ({{ item.filteredGroup.length }})</a>
+            </nav>
+            <div class="content-wrapper">
+                <div class="search-bar">
+                    <input class="site-search" type="search" id="site-search" placeholder="Search through site content">
+                    <button class="search-btn">Search</button>
+                </div>
+                <h3 class="main-title">What is Lorem Ipsum?</h3>
+                <h4 class="search-results">Total {{controller.filteredArticlesCount}} results</h4>
+
                 <div class="content">
                     <div class="card-deck">
                         <div class="card">
                             <div class="card-body" ng-repeat="doc in controller.documents">
                                 <h5 class="card-title">What is Lorem Ipsum?</h5>
-                                <p class="card-text">{{ doc.text }}</p>
+                                <p class="card-text">{{ doc.value.text }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
+        <!--/.Main-->
         <!--Footer-->
         <footer class="page-footer">
             <!--Copyright-->
