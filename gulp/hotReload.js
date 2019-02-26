@@ -6,6 +6,7 @@ function watchJs() {
     return gulp.watch('./src/**/*.js', done => {
         compileJs();
         lintJs();
+        injectBundles();
         browserSync.reload();
         done()
     });
@@ -14,6 +15,7 @@ function watchJs() {
 function watchSass() {
     return gulp.watch('./src/**/*.scss', done => {
         compileSass();
+        injectBundles();
         browserSync.reload();
         done()
     });
@@ -28,9 +30,10 @@ function watchHtml() {
 }
 
 function watchTemplates() {
-    return gulp.watch('./src/templates/**/*.html', done => {
+    return gulp.watch('./src/**/*.html', done => {
         bundleTemplates();
         compileJs();
+        injectBundles();
         browserSync.reload();
         done();
     })
