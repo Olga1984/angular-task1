@@ -1,5 +1,5 @@
 import angular from 'angular';
-import { mockDocuments } from '../assets/documents';
+import {mockDocuments} from '../assets/documents';
 
 const documentModule = angular.module('document');
 documentModule.service('documentService', ['$q', function documentService($q) {
@@ -10,25 +10,24 @@ documentModule.service('documentService', ['$q', function documentService($q) {
     function getDocuments() {
         $q.resolve(mockDocuments).then(updatedDocs => documents.push(...updatedDocs));
     }
+
     function getFilteredArticles() {
         const cache = {};
         mockDocuments.forEach((elem) => {
-            const { category } = elem;
-            // console.log(category);
+            const { category } = elem;            
             if (cache[category]) {
                 cache[category].push(elem.value);
             } else {
                 cache[category] = [elem.value];
             }
         });
-        for (const key in cache) {
+        Object.keys(cache).forEach(function (key) {
             filteredArticlesCount = filteredArticlesCount + cache[key].length;
             filteredArticles.push({
                 filteredCategoryName: key,
                 filteredGroup: cache[key],
             });
-        }
-        console.log(filteredArticlesCount);
+        });        
     }
     getFilteredArticles();
     return {
