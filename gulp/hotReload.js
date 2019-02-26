@@ -1,6 +1,6 @@
 const browserSync = require('browser-sync');
 const gulp = require('gulp');
-const { compileJs, compileSass, injectBundles, lintJs } = require('./build');
+const { compileJs, compileSass, injectBundles, lintJs, bundleTemplates } = require('./build');
 
 function watchJs() {
     return gulp.watch('./src/**/*.js', done => {
@@ -19,9 +19,17 @@ function watchSass() {
     });
 }
 
-function watchHtml(done) {
+function watchHtml() {
     return gulp.watch('./src/index.html', done => {
         injectBundles();
+        browserSync.reload();
+        done();
+    })
+}
+
+function watchTemplates() {
+    return gulp.watch('./src/templates/**/*.html', done => {
+        bundleTemplates();
         browserSync.reload();
         done();
     })
@@ -39,5 +47,6 @@ module.exports = {
     watchJs,
     watchSass,
     watchHtml,
+    watchTemplates,
     hotReload
 }
