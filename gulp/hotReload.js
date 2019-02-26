@@ -30,6 +30,7 @@ function watchHtml() {
 function watchTemplates() {
     return gulp.watch('./src/templates/**/*.html', done => {
         bundleTemplates();
+        compileJs();
         browserSync.reload();
         done();
     })
