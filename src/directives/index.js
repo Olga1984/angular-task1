@@ -1,1 +1,2 @@
-export { default } from './searchbarDirective';
+import './searchbarDirective';
+import './articleDirective';
