@@ -8,6 +8,8 @@ const sass = require('gulp-sass');
 const cleanCss = require('gulp-clean-css');
 const inject = require('gulp-inject');
 const eslint = require('gulp-eslint');
+const templateCache = require('gulp-angular-templatecache');
+const stripHtml = require('./plugins/stripHtml');
 
 sass.compiler = require('node-sass');
 
@@ -18,7 +20,7 @@ function lintJs() {
 }
 
 function compileJs() {
-    return browserify('./src/index.js')
+    return browserify({entries: ['./src/index.js', './dist/templates/templates.js']})
         .transform('babelify', {presets: ['@babel/preset-env']})
         .bundle()
         .pipe(source('main.bundle.js'))
@@ -36,6 +38,13 @@ function compileSass() {
         .pipe(gulp.dest('./dist'));
 }
 
+function bundleTemplates() {
+    return gulp.src('./src/templates/**/*.html', {mark: true})
+        .pipe(stripHtml())
+        .pipe(templateCache({standalone: true, moduleSystem: 'ES6'}))
+        .pipe(gulp.dest('./dist/templates'));
+}
+
 function injectBundles() {
     const sources = gulp.src(['./dist/*.js', './dist/*.css'], {read: false});
     return gulp.src('./src/index.html')
@@ -47,5 +56,6 @@ module.exports = {
     lintJs,
     compileJs,
     compileSass,
+    bundleTemplates,
     injectBundles
 }
