@@ -29,8 +29,10 @@
                 <a ng-repeat="item in controller.filteredArticles" class="nav-link">{{ item.filteredCategoryName }} ({{ item.filteredGroup.length }})</a>
             </nav>
             <div class="content-wrapper">
-                <div ng-searchbar></div>
-                <h2 class="main-title">What is Lorem Ipsum?</h2>
+                <div>
+                    <ng-searchbar></ng-searchbar>
+                </div>
+                <h2 class="">What is Lorem Ipsum?</h2>
                 <h4 class="search-results">Total {{controller.filteredArticlesCount}} results</h4>
                 <div class="content">
                     <div class="card-deck">
