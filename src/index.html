@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="document">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,35 +15,36 @@
 
 <body>
     <div class="app">
+        <!--Header-->
         <header class="header">
             <img class="logo" src="" alt="logo">
             <button class="navbar-toggler">
-                <div class="hamburger">
-                    <div class="hamburger__patty"></div>
-                    <div class="hamburger__patty"></div>
-                    <div class="hamburger__patty"></div>
-                </div>
+                <div class="hamburger">Menu</div>
             </button>
         </header>
-        <main class="container">
-            <div ng-searchbar></div>
-            <h3 class="main-title">What is Lorem Ipsum?</h3>
-            <div class="content-wrapper" ng-controller="DocumentController as controller">
-                <nav class="sidebarbar">
-                    <a class="nav-link">Item</a>
-                </nav>
+        <!--/.Header-->
+        <!--Main-->
+        <main class="container" ng-controller="DocumentController as controller">
+            <nav class="sidebar">
+                <a ng-repeat="item in controller.filteredArticles" class="nav-link">{{ item.filteredCategoryName }} ({{ item.filteredGroup.length }})</a>
+            </nav>
+            <div class="content-wrapper">
+                <div ng-searchbar></div>
+                <h2 class="main-title">What is Lorem Ipsum?</h2>
+                <h4 class="search-results">Total {{controller.filteredArticlesCount}} results</h4>
                 <div class="content">
                     <div class="card-deck">
                         <div class="card">
                             <div class="card-body" ng-repeat="doc in controller.documents">
                                 <h5 class="card-title">What is Lorem Ipsum?</h5>
-                                <p class="card-text">{{ doc.text }}</p>
+                                <p class="card-text">{{ doc.value.text }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
+        <!--/.Main-->
         <!--Footer-->
         <footer class="page-footer">
             <!--Copyright-->
