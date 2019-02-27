@@ -10,6 +10,7 @@ const inject = require('gulp-inject');
 const eslint = require('gulp-eslint');
 const templateCache = require('gulp-angular-templatecache');
 const stripHtml = require('./plugins/stripHtml');
+const concat = require('gulp-concat');
 
 sass.compiler = require('node-sass');
 
@@ -34,6 +35,7 @@ function compileJs() {
 function compileSass() {
     return gulp.src('./src/**/*.scss')
         .pipe(sass().on('error', sass.logError))
+        .pipe(concat('styles.css'))
         .pipe(cleanCss())
         .pipe(gulp.dest('./dist'));
 }
