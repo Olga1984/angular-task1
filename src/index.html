@@ -12,17 +12,9 @@
     <!-- inject:js -->
     <!-- endinject -->
 </head>
-
 <body>
     <div class="app">
-        <!--Header-->
-        <header class="header">
-            <img class="logo" src="" alt="logo">
-            <button class="navbar-toggler">
-                <div class="hamburger">Menu</div>
-            </button>
-        </header>
-        <!--/.Header-->
+        <swt-header></swt-header>
         <!--Main-->
         <main class="container" ng-controller="DocumentController as controller">
             <nav class="sidebar">
@@ -48,19 +40,7 @@
             </div>
         </main>
         <!--/.Main-->
-        <!--Footer-->
-        <footer class="page-footer">
-            <!--Copyright-->
-            <div class="footer-copyright"> ©
-                <a href="" target="_blank">copyright 2019</a>.
-            </div>
-            <!--/.Copyright-->
-            <div class="footer-container">
-                <div class="">
-                </div>
-            </div>
-        </footer>
-        <!--/.Footer-->
+        <swt-footer></swt-footer>
     </div>
 </body>
 
