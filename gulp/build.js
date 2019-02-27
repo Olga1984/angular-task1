@@ -39,7 +39,7 @@ function compileSass() {
 }
 
 function bundleTemplates() {
-    return gulp.src('./src/templates/**/*.html', {mark: true})
+    return gulp.src('./src/**/*.html', {mark: true})
         .pipe(stripHtml())
         .pipe(templateCache({standalone: true, moduleSystem: 'ES6'}))
         .pipe(gulp.dest('./dist/templates'));
