@@ -6,7 +6,7 @@ export default angular.module('shared')
             restrict: 'E',
             templateUrl: 'document.html',
             scope: {
-                showHeadline: '@headline',
+                showHeadline: '<headline',
                 document: '='
             }
         }
