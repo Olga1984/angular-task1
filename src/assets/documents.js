@@ -1,4 +1,4 @@
-export const mockDocuments = [
+export default [
     {
         category: 'Journals',
         value: {
@@ -6,7 +6,7 @@ export const mockDocuments = [
             text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
             views: 90132,
         },
-},
+    },
     {
         category: 'Journals',
         value: {
@@ -14,7 +14,7 @@ export const mockDocuments = [
             text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Qu vel eum iure reprehenderit qui in ea voluptate velit consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?',
             views: 100,
         },
-},
+    },
     {
         category: 'News',
         value: {
@@ -22,7 +22,7 @@ export const mockDocuments = [
             text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
             views: 932,
         },
-},
+    },
     {
         category: 'Taxes',
         value: {
@@ -30,7 +30,7 @@ export const mockDocuments = [
             text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
             views: 32,
         },
-},
+    },
     {
         category: 'Journals',
         value: {
@@ -46,7 +46,7 @@ export const mockDocuments = [
             text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
             views: 90,
         },
-},
+    },
     {
         category: 'News',
         value: {
@@ -54,7 +54,7 @@ export const mockDocuments = [
             text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
             views: 132,
         },
-},
+    },
     {
         category: 'Topics',
         value: {
@@ -62,7 +62,7 @@ export const mockDocuments = [
             text: 'Something really important happened somewhere today Something really important happened somewhere today Something really important happened somewhere today',
             views: 701,
         },
-},
+    },
     {
         category: 'Topics',
         value: {

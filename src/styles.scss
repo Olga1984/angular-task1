@@ -2,24 +2,6 @@
     width: 1200px;
     margin: 0 auto;
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        overflow: hidden;
-
-        .navbar-toggler {
-            width: 50px;
-            height: 50px;
-
-            .hamburger {
-            }
-        }
-        .logo {
-            display: block;
-            width: 50px;
-            height: 50px;
-        }
-    }
     .container {
         display: flex;
         justify-content: space-between;
@@ -76,17 +58,5 @@
         }
 
 
-    }
-    .page-footer {
-        text-align: center;
-
-        .footer-copyright {
-            height: 30px;
-            background-color: gray;
-        }
-        .footer-container {
-            height: 20px;
-            background-color: darkgrey;
-        }
     }
 }
