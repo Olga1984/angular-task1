@@ -6,8 +6,8 @@ export default angular.module('shared')
             restrict: 'E',
             templateUrl: 'document.html',
             scope: {
-                showHeadline: '<headline',
-                document: '='
+                showHeadline: '@headline',
+                document: '<'
             }
         }
     });
