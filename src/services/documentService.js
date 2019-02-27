@@ -1,5 +1,5 @@
 import angular from 'angular';
-import * as mockDocuments from '../assets/documents';
+import { mockDocuments } from '../assets/documents';
 
 const documentModule = angular.module('document');
 documentModule.service('documentService', ['$q', function documentService($q) {
