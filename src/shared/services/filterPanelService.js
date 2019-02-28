@@ -2,16 +2,14 @@ import angular from 'angular';
 import { mockDocuments } from '../../assets/documents';
 
 const filterPanelModule = angular.module('searchPage');
-filterPanelModule.service('filterPanelService', function filterPanelService() {
-
+filterPanelModule.service('filterPanelService', () => {
     const filteredArticles = [];
-    let filteredArticlesCount = 0;
 
     function getFilteredArticles() {
         const cache = {};
         mockDocuments.forEach((elem) => {
             const {
-                category
+                category,
             } = elem;
             if (cache[category]) {
                 cache[category].push(elem.value);
@@ -19,8 +17,7 @@ filterPanelModule.service('filterPanelService', function filterPanelService() {
                 cache[category] = [elem.value];
             }
         });
-        Object.keys(cache).forEach(function (key) {
-            filteredArticlesCount = filteredArticlesCount + cache[key].length;
+        Object.keys(cache).forEach((key) => {
             filteredArticles.push({
                 filteredCategoryName: key,
                 filteredGroup: cache[key],
@@ -29,8 +26,8 @@ filterPanelModule.service('filterPanelService', function filterPanelService() {
     }
     getFilteredArticles();
 
-    return { 
-        filteredArticles,        
+    return {
+        filteredArticles,
     };
 });
 
