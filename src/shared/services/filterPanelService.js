@@ -1,15 +1,11 @@
 import angular from 'angular';
-import { mockDocuments } from '../assets/documents';
+import { mockDocuments } from '../../assets/documents';
 
-const documentModule = angular.module('document');
-documentModule.service('documentService', ['$q', function documentService($q) {
-    const documents = [];
+const filterPanelModule = angular.module('searchPage');
+filterPanelModule.service('filterPanelService', function filterPanelService() {
+
     const filteredArticles = [];
     let filteredArticlesCount = 0;
-
-    function getDocuments() {
-        $q.resolve(mockDocuments).then(updatedDocs => documents.push(...updatedDocs));
-    }
 
     function getFilteredArticles() {
         const cache = {};
@@ -32,12 +28,10 @@ documentModule.service('documentService', ['$q', function documentService($q) {
         });
     }
     getFilteredArticles();
-    return {
-        documents,
-        getDocuments,
-        filteredArticles,
-        filteredArticlesCount,
-    };
-}]);
 
-export default documentModule;
+    return { 
+        filteredArticles,        
+    };
+});
+
+export default filterPanelModule;

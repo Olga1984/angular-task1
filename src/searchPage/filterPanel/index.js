@@ -1,0 +1,2 @@
+import './filterPanelDirective';
+import './FilterPanelController';

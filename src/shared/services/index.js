@@ -1,1 +1,2 @@
 import './documentService';
+import './filterPanelService';

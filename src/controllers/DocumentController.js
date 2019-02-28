@@ -5,8 +5,8 @@ documentModule.controller('DocumentController', ['documentService', function Doc
     this.documents = documentService.documents;
     documentService.getDocuments();
 
-    this.filteredArticles = documentService.filteredArticles;
-    this.filteredArticlesCount = documentService.filteredArticlesCount;
+    // this.filteredArticles = documentService.filteredArticles;
+    // this.filteredArticlesCount = documentService.filteredArticlesCount;
 }]);
 
 export default documentModule;
