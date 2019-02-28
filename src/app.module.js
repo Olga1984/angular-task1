@@ -1,6 +1,5 @@
 import angular from 'angular';
 
-angular.module('document', ['searchbar', 'shared', 'templates']);
+angular.module('core', ['templates', 'searchPage', 'shared']);
 angular.module('shared', []);
-angular.module('searchbar', []);
-angular.module('article', []);
+angular.module('searchPage', []);
