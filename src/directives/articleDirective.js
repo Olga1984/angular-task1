@@ -4,6 +4,6 @@ export default angular.module('article')
     .directive('ngArticle', function() {
         return {
             restrict: 'E',
-            templateUrl: 'article.html',
+            templateUrl: 'article.html',            
         }
     });
