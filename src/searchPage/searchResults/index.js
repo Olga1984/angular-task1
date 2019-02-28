@@ -1,0 +1,2 @@
+import './searchResultsDirective';
+import './SearchResultsController';
