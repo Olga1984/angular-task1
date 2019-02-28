@@ -1,3 +1,5 @@
-<nav class="sidebar">
-    <a ng-repeat="item in filter.filteredArticles" class="nav-link">{{ item.filteredCategoryName }} ({{ item.filteredGroup.length }})</a>
-</nav>
+<ul class="filter">
+    <li ng-repeat="item in filter.filteredArticles" class="filter-item">
+     {{item.filteredCategoryName }} ({{ item.filteredGroup.length }})
+    </li>
+</ul>

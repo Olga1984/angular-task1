@@ -1,2 +1,2 @@
-import './searcbarController';
+import './searchbarController';
 import './searchbarDirective';

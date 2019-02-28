@@ -3,9 +3,9 @@ import { mockDocuments } from '../../assets/documents';
 
 const filterPanelModule = angular.module('searchPage');
 filterPanelModule.service('filterPanelService', () => {
-    const filteredArticles = [];
 
     function getFilteredArticles() {
+        const filteredArticles = [];
         const cache = {};
         mockDocuments.forEach((elem) => {
             const {
@@ -23,11 +23,10 @@ filterPanelModule.service('filterPanelService', () => {
                 filteredGroup: cache[key],
             });
         });
+        return filteredArticles;
     }
-    getFilteredArticles();
-
     return {
-        filteredArticles,
+        getFilteredArticles,
     };
 });
 
