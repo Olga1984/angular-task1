@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="/">
     <title>Angular Task</title>
     <!-- inject:css -->
     <!-- endinject -->
@@ -13,9 +14,13 @@
 </head>
 <body>
     <div class="app">
+        <a href="search?query=Taxes">Go to search page</a>
         <swt-header></swt-header>
+        <div ng-view></div>
+        <swt-footer></swt-footer>
+        <!-- <swt-header></swt-header>
         <swt-filter-panel></swt-filter-panel>
-        <!--Main-->
+        Main
         <main class="container">
             <div class="content-wrapper">
                 <swt-searchbar></swt-searchbar>
@@ -24,11 +29,11 @@
                 <swt-search-results></swt-search-results>
             </div>
         </main>
-        <!--/.Main-->
+        /.Main
         <swt-footer></swt-footer>
         <swt-header></swt-header>
         <swt-home></swt-home>
-        <swt-footer></swt-footer>
+        <swt-footer></swt-footer> -->
     </div>
 </body>
 
