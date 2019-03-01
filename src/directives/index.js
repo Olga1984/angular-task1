@@ -1,2 +1,0 @@
-import './searchbarDirective';
-import './articleDirective';
