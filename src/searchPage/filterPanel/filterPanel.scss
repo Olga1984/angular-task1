@@ -1,0 +1,20 @@
+.filter {
+    width: 172px;
+    position: fixed;
+    z-index: 1;
+    top: 158px;
+    left: 33px;
+    list-style: none;
+    padding: 15px 0;
+
+    .filter-item {
+        padding: 6px 8px 6px 16px;
+        border: 1px solid black;
+        border-bottom: none;
+
+        &:last-child {
+            border-bottom: 1px solid black;
+        }
+    }
+
+}

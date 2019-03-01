@@ -1,0 +1,2 @@
+import './searchbarController';
+import './searchbarDirective';
