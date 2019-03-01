@@ -6,8 +6,13 @@
     margin: 0;
     padding: 0;
 }
-.app {
-    width: 1200px;
-    margin: 0 auto;
+.app {    
     padding: 0;
+
+    .content-view {
+        width: 80%;
+        margin: 0 auto;
+        min-height: calc(100vh - 80px);
+        
+    }
 }
