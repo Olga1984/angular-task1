@@ -1,7 +1,7 @@
 import angular from 'angular';
-import 'angular-route';
+import '@uirouter/angularjs';
 
-angular.module('core', ['templates', 'ngRoute', 'searchPage', 'shared', 'home']);
+angular.module('core', ['templates', 'ui.router', 'searchPage', 'shared', 'home']);
 angular.module('home', []);
 angular.module('searchPage', []);
 angular.module('shared', []);
