@@ -11,6 +11,7 @@ const eslint = require('gulp-eslint');
 const templateCache = require('gulp-angular-templatecache');
 const stripHtml = require('./plugins/stripHtml');
 const concat = require('gulp-concat');
+const autoprefixer = require('gulp-autoprefixer');
 
 sass.compiler = require('node-sass');
 
@@ -26,7 +27,7 @@ function compileJs() {
         .bundle()
         .pipe(source('main.bundle.js'))
         .pipe(buffer())
-        .pipe(sourceMaps.init({loadMaps: true}))
+        .pipe(sourceMaps.init({ loadMaps: true }))
         .pipe(uglify())
         .pipe(sourceMaps.write())
         .pipe(gulp.dest('./dist'));
@@ -35,6 +36,7 @@ function compileJs() {
 function compileSass() {
     return gulp.src('./src/**/*.scss')
         .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer())
         .pipe(concat('styles.css'))
         .pipe(cleanCss())
         .pipe(gulp.dest('./dist'));
