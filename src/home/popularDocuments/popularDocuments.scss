@@ -15,7 +15,8 @@ $break-tablet: 640px;
                 width: auto;
                 float: none;
                 margin-right: 0;
-                height: 39px;
+                height: 6em;
+                line-height: 1.5em;
                 overflow: hidden;
                 padding: 20px 0;
             }
@@ -26,8 +27,7 @@ $break-tablet: 640px;
             .popular-article {
                 width: 47.5%;
                 float: left;
-                margin-right: 5%;
-                height: 73px;
+                margin-right: 5%;                
             }
             :nth-child(even) {
                 margin-right: 0;
