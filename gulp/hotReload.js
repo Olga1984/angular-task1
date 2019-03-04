@@ -43,7 +43,8 @@ function hotReload() {
     browserSync.init({
         server: {
             baseDir: './dist',
-        }
+        },
+        single: true
     })
 }
 
