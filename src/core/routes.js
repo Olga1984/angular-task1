@@ -1,12 +1,16 @@
 import angular from 'angular';
 
 export default angular.module('core')
-    .config(['$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) => {
-        $routeProvider
-            .when('/', {
+    .config(['$stateProvider', '$locationProvider', ($stateProvider, $locationProvider) => {
+        $stateProvider
+            .state({
+                name: 'home',
+                url: '/',
                 template: '<swt-home></swt-home>',
             })
-            .when('/search', {
+            .state({
+                name: 'search',
+                url: '/search?:foo',
                 template: '<swt-search-page></swt-search-page>',
             });
         $locationProvider.html5Mode(true);
