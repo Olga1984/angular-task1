@@ -1,11 +1,9 @@
 <div class="popular">
     <header class="popular-header">
-        <h2>
-            Most popular documents
-        </h2>
+        <h2>Most popular documents</h2>
     </header>
     <div class="popular-docs">
-        <div ng-repeat="item in popular.documents">
+        <div class="popular-article" ng-repeat="item in popular.documents">
             <swt-document document="item" headline="false"></swt-document>
         </div>
     </div>
