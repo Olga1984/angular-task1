@@ -1,3 +1,31 @@
+.search-page {
+    display: flex;
+}
+.search-page::after {
+    display: block;
+    content: "";
+    height: auto;
+    flex: 1;
+}
+
+.filter-wrapper {
+    padding: 50px 0;
+    flex: 1;
+}
+
+.search-content {
+    flex-basis: 80%;
+}
+
 .search-count {
     margin-top: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+    .search-page {
+        flex-direction: column;
+    }
+    .search-content {
+        padding: 0 10%;
+    }
 }
