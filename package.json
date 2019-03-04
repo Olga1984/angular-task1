@@ -44,7 +44,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "angular": "^1.7.7",
-    "angular-route": "^1.7.7"
+    "@uirouter/angularjs": "^1.0.22",
+    "angular": "^1.7.7"
   }
 }
