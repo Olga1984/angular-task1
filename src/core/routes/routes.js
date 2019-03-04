@@ -6,12 +6,12 @@ export default angular.module('core')
             .state({
                 name: 'home',
                 url: '/',
-                template: '<swt-home></swt-home>',
+                templateUrl: 'homeRoute.html',
             })
             .state({
                 name: 'search',
                 url: '/search?:foo',
-                template: '<swt-search-page></swt-search-page>',
+                templateUrl: 'searchRoute.html',
             });
         $locationProvider.html5Mode(true);
     }]);
