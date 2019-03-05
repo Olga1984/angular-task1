@@ -23,7 +23,18 @@ function lintJs() {
 
 function compileJs() {
     return browserify({entries: ['./src/index.js', './dist/templates/templates.js']})
-        .transform('babelify', {presets: ['@babel/preset-env']})
+        .transform('babelify', 
+        { 
+            plugins: ['@babel/plugin-transform-regenerator', '@babel/plugin-transform-async-to-generator'], 
+            presets: [
+                [
+                    '@babel/preset-env', 
+                    {
+                        useBuiltIns: 'usage'
+                    }
+                ]
+            ] 
+        })
         .bundle()
         .pipe(source('main.bundle.js'))
         .pipe(buffer())
