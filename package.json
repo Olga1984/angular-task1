@@ -46,6 +46,8 @@
   },
   "dependencies": {
     "@uirouter/angularjs": "^1.0.22",
-    "angular": "^1.7.7"
+    "angular": "^1.7.7",
+    "angular-sanitize": "^1.7.7",
+    "angular-translate-loader-static-files": "^2.18.1"
   }
 }
