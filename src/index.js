@@ -3,3 +3,4 @@ import './core';
 import './shared';
 import './searchPage';
 import './home';
+import './translate';

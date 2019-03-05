@@ -1,9 +1,9 @@
 import angular from 'angular';
 
-export default angular.module('searchPage')
-    .directive('swtSearchPage', () => (
+export default angular.module('translate')
+    .directive('swtTranslate', () => (
         {
-            templateUrl: 'searchPage.html',
+            templateUrl: 'translate.html',
             restrict: 'E',
             controller: 'TranslateController',
             controllerAs: 'translateCtrl',
