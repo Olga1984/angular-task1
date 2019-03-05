@@ -1,0 +1,29 @@
+.page-buttons {
+    margin: 10px 0 20px;
+    button {
+        margin: 0 5px;
+        padding: 2px 5px;
+        border: thin solid rgb(40, 40, 40);
+        border-radius: 2px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    button:first-of-type {
+        margin-left: 0;
+    }
+    .button__active {
+        background-color: #81D4FA;
+    }
+}
+
+// .page-button {
+    
+// }
+
+// .page-button:first-of-type {
+    
+// }
+
+// .page-button__active {
+//     
+// }
