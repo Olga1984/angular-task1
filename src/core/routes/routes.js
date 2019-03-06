@@ -10,7 +10,7 @@ export default angular.module('core')
             })
             .state({
                 name: 'search',
-                url: '/search?:query',
+                url: '/search?query',
                 templateUrl: 'searchRoute.html',
             });
         $locationProvider.html5Mode(true);
