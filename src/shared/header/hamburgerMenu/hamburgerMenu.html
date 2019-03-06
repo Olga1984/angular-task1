@@ -1,0 +1,14 @@
+<div class="hamburger">
+    <div class="icon-container" ng-click="hamburger.toggleMenu()">
+        <button class="icon" ng-class="{ close: hamburger.active == true }"></button>
+    </div>
+    <div class="menu" ng-class="{ folded: hamburger.active == true }">
+        <nav class="navigation-list">
+            <ul>
+                <li ng-repeat="link in hamburger.navList">
+                    <a class="nav-link" ui-sref="{{link.state}}" ng-click="hamburger.toggleMenu()">{{ link.text }}</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
