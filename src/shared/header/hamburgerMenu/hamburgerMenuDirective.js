@@ -9,7 +9,7 @@ export default angular.module('shared')
             controllerAs: 'hamburger',
             link: ($scope, iElem) => {
                 function closeMenu() {
-                    if (!$scope.hamburger.active) {
+                    if (!$scope.hamburger.isActive) {
                         return;
                     }
                     $scope.hamburger.toggleMenu();

@@ -2,9 +2,9 @@ import angular from 'angular';
 
 export default angular.module('shared')
     .controller('HamburgerMenuController', function HamburgerMenuController() {
-        this.active = false;
+        this.isActive = false;
         this.toggleMenu = () => {
-            this.active = !this.active;
+            this.isActive = !this.isActive;
         };
         this.navList = [
             {
