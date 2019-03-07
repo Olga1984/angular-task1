@@ -1,8 +1,8 @@
 <div class="hamburger">
     <div class="icon-container" ng-click="hamburger.toggleMenu()">
-        <span class="icon" ng-class="{ close: hamburger.active == true }"></span>
+        <span class="icon" ng-class="{ close: hamburger.isActive == true }"></span>
     </div>
-    <div class="menu" ng-class="{ folded: hamburger.active == true }">
+    <div class="menu" ng-class="{ folded: hamburger.isActive == true }">
         <nav class="navigation-list">
             <ul>
                 <li ng-repeat="link in hamburger.navList">
