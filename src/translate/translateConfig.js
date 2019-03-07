@@ -20,5 +20,5 @@ export default angular.module('translate')
         });
         $translateProvider.useSanitizeValueStrategy('sanitize');
         $translateProvider.useCookieStorage();
-        // $translateProvider.useLocalStorage();
+        $translateProvider.useLocalStorage();
     }]);
