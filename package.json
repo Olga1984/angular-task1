@@ -50,7 +50,10 @@
     "@babel/polyfill": "^7.2.5",
     "@uirouter/angularjs": "^1.0.22",
     "angular": "^1.7.7",
+    "angular-cookies": "^1.7.7",
     "angular-sanitize": "^1.7.7",
-    "angular-translate-loader-static-files": "^2.18.1"
+    "angular-translate-loader-static-files": "^2.18.1",
+    "angular-translate-storage-cookie": "^2.18.1",
+    "angular-translate-storage-local": "^2.18.1"
   }
 }

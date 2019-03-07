@@ -19,4 +19,6 @@ export default angular.module('translate')
             suffix: '.json',
         });
         $translateProvider.useSanitizeValueStrategy('sanitize');
+        $translateProvider.useCookieStorage();
+        // $translateProvider.useLocalStorage();
     }]);
