@@ -5,9 +5,15 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
 }
 
 .app {
+    overflow: hidden;
     .content-view {
         min-height: calc(100vh - 80px);
     }
