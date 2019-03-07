@@ -8,5 +8,13 @@
     }
     .search-btn {
         width: 10%;
+        
+        &:hover {
+            background-color: #89e7bb;
+        }
+        &:active {
+            background-color: #81d4fa;
+        }
     }    
+
 }      
