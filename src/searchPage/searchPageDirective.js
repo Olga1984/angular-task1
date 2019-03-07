@@ -5,5 +5,7 @@ export default angular.module('searchPage')
         {
             templateUrl: 'searchPage.html',
             restrict: 'E',
+            controller: 'SearchPageController',
+            controllerAs: 'searchPageCtrl',
         }
     ));
