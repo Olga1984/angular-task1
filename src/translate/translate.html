@@ -1,5 +1,6 @@
 <div>
-    <button ng-click="translateCtrl.changeLanguage('en')" translate="BUTTON_LANG_EN">english</button>
-    <button ng-click="translateCtrl.changeLanguage('de')" translate="BUTTON_LANG_DE">german</button>
-    <button ng-click="translateCtrl.changeLanguage('es')" translate="BUTTON_LANG_ES">spanish</button>
+    <button  ng-class="{ button__active: translateCtrl.selectedLanguage === 'en' }"  ng-click="translateCtrl.changeLanguage('en')" translate="BUTTON_LANG_EN">english</button>
+    <button ng-class="{ button__active: translateCtrl.selectedLanguage === 'de' }"  ng-click="translateCtrl.changeLanguage('de')" translate="BUTTON_LANG_DE">german</button>
+    <button ng-class="{ button__active: translateCtrl.selectedLanguage === 'es' }"  ng-click="translateCtrl.changeLanguage('es')" translate="BUTTON_LANG_ES">spanish</button>
 </div>
+
