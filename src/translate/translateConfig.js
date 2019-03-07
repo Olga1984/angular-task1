@@ -8,6 +8,8 @@ export default angular.module('translate')
         $translateProvider.translations('en', en);
         $translateProvider.translations('de', de);
         $translateProvider.translations('es', es);
+        $translateProvider.useCookieStorage();
+        $translateProvider.useLocalStorage();
         $translateProvider.preferredLanguage('en');
         $translateProvider.registerAvailableLanguageKeys(['en', 'de', 'es'], {
             'en-*': 'en',
@@ -19,6 +21,4 @@ export default angular.module('translate')
             suffix: '.json',
         });
         $translateProvider.useSanitizeValueStrategy('sanitize');
-        $translateProvider.useCookieStorage();
-        $translateProvider.useLocalStorage();
     }]);
