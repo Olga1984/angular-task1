@@ -1,10 +1,7 @@
 /.idea
 /node_modules
 /.vscode
-/dist/templates
-/dist/index.html
-/dist/main.bundle.js
-/dist/styles.css
+/dist
 *.css
 *.map
 *.log
