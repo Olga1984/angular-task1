@@ -12,7 +12,6 @@ export default angular.module('translate')
         $translateProvider.translations('es', es);
         $translateProvider.useCookieStorage();
         $translateProvider.useLocalStorage();
-
         $translateProvider.registerAvailableLanguageKeys(['en', 'de', 'es'], {
             'en-*': 'en',
             'de-*': 'de',
