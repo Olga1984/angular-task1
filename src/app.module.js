@@ -6,6 +6,7 @@ import 'angular-translate-loader-static-files';
 import 'angular-translate-storage-local';
 import 'angular-translate-storage-cookie';
 import 'angular-cookies';
+import 'angular-translate-handler-log';
 
 angular.module('core', ['templates',
     'ui.router',
@@ -15,7 +16,7 @@ angular.module('core', ['templates',
     'ngCookies',
     'pascalprecht.translate',
     'translate',
-    'ngSanitize',    
+    'ngSanitize',
 ]);
 angular.module('home', []);
 angular.module('searchPage', []);
