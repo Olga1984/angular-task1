@@ -1,0 +1,37 @@
+@import 'wk-init';
+@import 'wk-reset';
+
+@import 'wk-components/type/type';
+@import 'wk-components/layout/layout';
+@import 'wk-components/inputs/inputs';
+@import 'wk-components/forms/forms';
+@import 'wk-components/buttons/buttons';
+
+@import 'wk-icons-all-filled';
+
+.none {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+@import './core/app.scss';
+@import './home/home.scss';
+@import './home/popularDocuments/popularDocuments.scss';
+@import './searchPage/searchPage.scss';
+@import './searchPage/filterPanel/filterPanel.scss';
+@import './searchPage/searchResults/searchResults.scss';
+@import './shared/document/document.scss';
+@import './shared/footer/footer.scss';
+@import './shared/header/header.scss';
+@import './shared/searchbar/searchbar.scss';
+@import './translate/translate.scss';
+@import './shared/header/hamburgerMenu/hamburgerMenu.scss';

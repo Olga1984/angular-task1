@@ -49,6 +49,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "@uirouter/angularjs": "^1.0.22",
+    "@wk/css": "^1.2.4",
+    "@wk/icons": "^1.2.1",
     "angular": "^1.7.7",
     "angular-cookies": "^1.7.7",
     "angular-sanitize": "^1.7.7",
