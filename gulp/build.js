@@ -22,7 +22,7 @@ function lintJs() {
 }
 
 function compileJs() {
-    return browserify({entries: ['./src/index.js', './dist/templates/templates.js']})
+    return browserify({entries: ['./node_modules/@wk/css/dist/modernizr.js', './src/index.js', './dist/templates/templates.js']})
         .transform('babelify', 
         { 
             plugins: ['@babel/plugin-transform-regenerator', '@babel/plugin-transform-async-to-generator'], 
@@ -33,6 +33,9 @@ function compileJs() {
                         useBuiltIns: 'usage'
                     }
                 ]
+            ],
+            ignore: [
+                'node_modules'
             ] 
         })
         .bundle()
@@ -45,8 +48,19 @@ function compileJs() {
 }
 
 function compileSass() {
-    return gulp.src('./src/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
+    return gulp.src('./src/index.scss', {base: ''})
+        .pipe(sass({
+            includePaths: [
+                './node_modules/@wk/css/src',
+                './node_modules/@wk/sass-utils/src',
+                './node_modules/@wk/fonts/src',
+                './node_modules/modularscale-sass/stylesheets/',
+                './node_modules/breakpoint-sass/stylesheets/',
+                './node_modules/susy/sass/',
+                './node_modules/@wk/icons/src',
+                './node_modules/@wk/icons/dist'
+            ]
+        }).on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(concat('styles.css'))
         .pipe(cleanCss())
