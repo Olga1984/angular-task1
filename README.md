@@ -37,6 +37,7 @@ or Taxes, Topics, Journals
 Method: GET
 Response: [ {
 "id": 21,
+"popular": 2,
 "category": "Taxes",
 "headline": "Taxes happend",
 "text": "Lorem ipsum neque commodo."
