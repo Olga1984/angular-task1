@@ -1,8 +1,8 @@
-.idea
+.idea/
 server/node_modules
 client/node_modules
 .vscode
-dist
-*.css
-*.map
-*.log
+client/dist
+client/*.css
+client/*.map
+client/*.log
