@@ -1,7 +1,7 @@
-/.idea
-/node_modules
-/.vscode
-/dist
+.idea
+node_modules
+.vscode
+dist
 *.css
 *.map
 *.log
