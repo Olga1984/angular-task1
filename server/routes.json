@@ -1,0 +1,4 @@
+{       
+    "/api/documents/popular": "/documents?_sort=popular&_order=desc&_limit=8",
+    "/api/*": "/$1"
+}
