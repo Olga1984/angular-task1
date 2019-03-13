@@ -1,4 +1,6 @@
 {       
     "/api/documents/popular": "/documents?_sort=popular&_order=desc&_limit=8",
+    "/api/documents?search=:search": "/documents?q=:search&_page=1&_limit=8",
+    "/api/documents?search=:search&filterId=:filter": "/documents?q=:search&filterId=:filter&_page=1&_limit=8",
     "/api/*": "/$1"
 }
