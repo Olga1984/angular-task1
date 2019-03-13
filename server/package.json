@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server db.json --routes routes.json"
+    "server": "./node_modules/.bin/json-server db.json --routes routes.json"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
 }
