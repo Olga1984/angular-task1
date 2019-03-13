@@ -1,6 +1,12 @@
-<div>
-    <button  ng-class="{ button__active: translateCtrl.selectedLanguage === 'en' }"  ng-click="translateCtrl.changeLanguage('en')" translate="BUTTON_LANG_EN">english</button>
-    <button ng-class="{ button__active: translateCtrl.selectedLanguage === 'de' }"  ng-click="translateCtrl.changeLanguage('de')" translate="BUTTON_LANG_DE">german</button>
-    <button ng-class="{ button__active: translateCtrl.selectedLanguage === 'es' }"  ng-click="translateCtrl.changeLanguage('es')" translate="BUTTON_LANG_ES">spanish</button>
-</div>
-
+<ul class="wk-nav wk-green-icons translate">
+    <li class="wk-dropdown" role="presentation"><a class="wk-dropdown-toggle" id="nav-dropdown-language" aria-haspopup="true" aria-expanded="false" href="javascript:void(0)">
+        <span class="wk-icon-flag"></span><span translate="SELECTED_LANG">EN</span></a>
+        <div class="wk-dropdown-menu wk-dropdown-right" aria-hidden="true" aria-label="submenu" aria-labelledby="nav-dropdown-language">
+            <ul>
+                <li><a href="javascript:void(0)" translate="BUTTON_LANG_EN" ng-click="translateCtrl.changeLanguage('en')">English</a></li>
+                <li><a href="javascript:void(0)" translate="BUTTON_LANG_DE" ng-click="translateCtrl.changeLanguage('de')">German</a></li>
+                <li><a href="javascript:void(0)" translate="BUTTON_LANG_ES" ng-click="translateCtrl.changeLanguage('es')">Spanish</a></li>
+            </ul>
+        </div>
+    </li>
+</ul>
