@@ -42,8 +42,9 @@ function watchTemplates() {
 function hotReload() {
     browserSync.init({
         server: {
-            baseDir: './dist',
+            baseDir: './dist'
         },
+        port: 5000,
         single: true
     })
 }

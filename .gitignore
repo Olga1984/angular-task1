@@ -1,7 +1,8 @@
-/.idea
-/node_modules
-/.vscode
-/dist
-*.css
-*.map
-*.log
+.idea/
+server/node_modules
+client/node_modules
+.vscode
+client/dist
+client/*.css
+client/*.map
+client/*.log
