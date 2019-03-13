@@ -6,8 +6,14 @@
 @import 'wk-components/inputs/inputs';
 @import 'wk-components/forms/forms';
 @import 'wk-components/buttons/buttons';
+@import 'wk-components/toolbelt/toolbelt';
+@import 'wk-components/header/header';
+@import 'wk-components/footer/footer';
+@import 'wk-components/dropdown/dropdown';
+@import 'wk-components/nav/nav';
+@import 'wk-components/content-filter/content-filter';
 
-@import 'wk-icons-all-filled';
+@import 'wk-icons-all-open';
 
 .none {
     display: none;

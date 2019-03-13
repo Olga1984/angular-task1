@@ -1,12 +1,20 @@
 .page-footer {
     text-align: center;
-
-    .footer-copyright {
-        height: 30px;
-        background-color: gray;
+    background-color: $wk-footer-background-color;
+    .logo-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
     }
-    .footer-container {
-        height: 20px;
-        background-color: darkgrey;
+    .copyright {
+        background: $wk-footer-copyright-background;
+        .copyright-text {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: left;
+        }
     }
 }
