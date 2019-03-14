@@ -4,7 +4,10 @@ export default angular.module('searchPage')
     .directive('swtFilterPanel', () => (
         {
             controller: 'FilterPanelController',
-            controllerAs: 'filter',
+            controllerAs: 'filterPanel',
             templateUrl: 'filterPanel.html',
+            scope: {
+                filters: '<',
+            },
         }
     ));
