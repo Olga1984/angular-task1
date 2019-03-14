@@ -1,0 +1,10 @@
+<div class="search-nav">
+    <button 
+        class="page-button"
+        ng-class="{ button__active: activePage == key }" 
+        ng-repeat="(key, value) in paginatedDocuments" 
+        ng-click="handleClick(key)"
+    >
+        {{ key + 1 }}
+    </button>
+</div>
