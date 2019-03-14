@@ -4,47 +4,41 @@
       "id": 1,
       "filterId": 2,
       "popular": 1,
-      "category": "Topics",
       "headline": "Topics happend",
-      "text": "Hello ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Hello ipsum dolor sit news, consectet vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 2,
       "filterId": 3,
       "popular": 4,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, Topics Taxes consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 3,
       "filterId": 3,
       "popular": 2,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor Hello Taxes  sit amet, consectetur adipiscing elit. gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 4,
       "filterId": 1,
       "popular": 1,
-      "category": "News",
       "headline": "News happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Taxes gogo adipiscing elit. Cras ultricies ipsum vel velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 5,
       "filterId": 3,
       "popular": 2,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem Hello ipsum dolor sit News, consect icies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 6,
       "filterId": 1,
       "popular": 6,
-      "category": "News",
       "headline": "Journals happend",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
@@ -60,7 +54,6 @@
       "id": 8,
       "filterId": 4,
       "popular": 2,
-      "category": "Taxes",
       "headline": "Taxes happend",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
@@ -68,25 +61,22 @@
       "id": 9,
       "filterId": 4,
       "popular": 9,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, News consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 10,
       "filterId": 4,
       "popular": 3,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Topics adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },           
     {
       "id": 11,
       "filterId": 4,
       "popular": 10,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Topics elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 12,
@@ -94,53 +84,47 @@
       "popular": 6,
       "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, News consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 1,
       "filterId": 2,
       "popular": 1,
-      "category": "Topics",
       "headline": "Topics happend",
-      "text": "Hello ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Hello ipsum dolor sit news, consectet vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 2,
       "filterId": 3,
       "popular": 4,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, Topics Taxes consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 3,
       "filterId": 3,
       "popular": 2,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor Hello Taxes  sit amet, consectetur adipiscing elit. gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 4,
       "filterId": 1,
       "popular": 1,
-      "category": "News",
       "headline": "News happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Taxes gogo adipiscing elit. Cras ultricies ipsum vel velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 5,
       "filterId": 3,
       "popular": 2,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem Hello ipsum dolor sit News, consect icies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 6,
       "filterId": 1,
       "popular": 6,
-      "category": "News",
       "headline": "Journals happend",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
@@ -156,7 +140,6 @@
       "id": 8,
       "filterId": 4,
       "popular": 2,
-      "category": "Taxes",
       "headline": "Taxes happend",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
@@ -164,25 +147,22 @@
       "id": 9,
       "filterId": 4,
       "popular": 9,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, News consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 10,
       "filterId": 4,
       "popular": 3,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Topics adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 11,
       "filterId": 4,
       "popular": 10,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Topics elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 12,
@@ -190,53 +170,47 @@
       "popular": 6,
       "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
-    }
-    , {
+      "text": "Lorem ipsum dolor sit amet, News consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+    },
+    {
       "id": 1,
       "filterId": 2,
       "popular": 1,
-      "category": "Topics",
       "headline": "Topics happend",
-      "text": "Hello ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Hello ipsum dolor sit news, consectet vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 2,
       "filterId": 3,
       "popular": 4,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, Topics Taxes consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 3,
       "filterId": 3,
       "popular": 2,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor Hello Taxes  sit amet, consectetur adipiscing elit. gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 4,
       "filterId": 1,
       "popular": 1,
-      "category": "News",
       "headline": "News happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Taxes gogo adipiscing elit. Cras ultricies ipsum vel velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 5,
       "filterId": 3,
       "popular": 2,
-      "category": "Journals",
       "headline": "Journals happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem Hello ipsum dolor sit News, consect icies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 6,
       "filterId": 1,
       "popular": 6,
-      "category": "News",
       "headline": "Journals happend",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
@@ -252,7 +226,6 @@
       "id": 8,
       "filterId": 4,
       "popular": 2,
-      "category": "Taxes",
       "headline": "Taxes happend",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
@@ -260,25 +233,22 @@
       "id": 9,
       "filterId": 4,
       "popular": 9,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, News consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 10,
       "filterId": 4,
       "popular": 3,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Topics adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 11,
       "filterId": 4,
       "popular": 10,
-      "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+      "text": "Lorem ipsum dolor sit amet, consectetur Topics elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
     },
     {
       "id": 12,
@@ -286,8 +256,9 @@
       "popular": 6,
       "category": "Taxes",
       "headline": "Taxes happend",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
-    }
+      "text": "Lorem ipsum dolor sit amet, News consectetur adipiscing elit. Cras ultricies ipsum vel tortor aliquam eleifend. Sed non velit rhoncus quam volutpat gravida tincidunt nec lectus. Nullam tristique erat a lacus sollicitudin, commodo tempus elit viverra. Vestibulum imperdiet neque nec tortor mollis, at scelerisque nisi varius. Vivamus ligula magna, porta et felis non, convallis facilisis est. Morbi ut nunc libero. Vivamus posuere auctor sem, quis molestie massa laoreet vitae. Donec nec libero vitae turpis aliquet scelerisque ac ac dui. Praesent metus turpis, elementum eu purus faucibus, imperdiet pellentesque nisi. Duis maximus libero dictum mi vulputate, in iaculis neque commodo."
+    },
+
   ],
   "filters": [
     {
