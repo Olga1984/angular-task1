@@ -1,9 +1,9 @@
 <div class="filter-panel wk-content-filter">
     <ul class="wk-content-filter-list">
-        <li class="wk-active"><a href="#"><span class="wk-badge">3</span><span class="wk-content-filter-label">News </span></a></li>
-        <li><a href="#"><span class="wk-badge">5</span><span class="wk-content-filter-label">Taxes </span></a></li>
-        <li><a href="#"><span class="wk-badge">8</span><span class="wk-content-filter-label">Finance </span></a></li>
-        <li><a href="#"><span class="wk-badge">15</span><span class="wk-content-filter-label">Tech </span></a></li>
-        <li><a href="#"><span class="wk-badge">2</span><span class="wk-content-filter-label">World </span></a></li>
+        <li ng-repeat="filter in filters.values" ng-class="{ 'wk-active': filterPanel.filters.includes(filter.id) }">
+            <a ng-click="filterPanel.toggleFilter(filter.id)">
+                <span class="wk-badge">{{ 2 }}</span><span class="wk-content-filter-label">{{ filter.name }}</span>
+            </a>
+        </li>
     </ul>
 </div>
