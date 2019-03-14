@@ -6,5 +6,8 @@ export default angular.module('searchPage')
             controller: 'SearchResultsController',
             controllerAs: 'search',
             templateUrl: 'searchResults.html',
+            scope: {
+                documents: '<',
+            },
         }
     ));
