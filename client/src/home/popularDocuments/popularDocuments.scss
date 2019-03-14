@@ -1,37 +1,9 @@
-$break-small: 320px;
-$break-tablet: 640px;
+.wk-layout-50-50 {
 
-.popular {
-    margin-bottom: 30px;
-
-    .popular-header {
-        margin: 4% 0;
-    }
-    @media screen and (min-width: $break-small) {
-        .popular-docs {
-            overflow: hidden;
-
-            .popular-article {
-                width: auto;
-                float: none;
-                margin-right: 0;
-                height: 6em;
-                line-height: 1.5em;
-                overflow: hidden;
-                padding: 20px 0;
-            }
-        }
-    }
-    @media screen and (min-width: $break-tablet) {
-        .popular-docs {
-            .popular-article {
-                width: 47.5%;
-                float: left;
-                margin-right: 5%;                
-            }
-            :nth-child(even) {
-                margin-right: 0;
-            }
-        }
+    .wk-layout-item {
+        overflow: hidden;
+        height: 6em;
+        line-height: 1.5em;
+        padding: 20px 0;
     }
 }
