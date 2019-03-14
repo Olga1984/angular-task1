@@ -10,7 +10,7 @@ sharedModule.controller('SearchbarController', ['$state', function SearchbarCont
         });
     };
     this.clearSearchInput=function(){
-        this.input = null;
+        this.input = '';
     }
 }]);
 
