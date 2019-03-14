@@ -9,6 +9,9 @@ sharedModule.controller('SearchbarController', ['$state', function SearchbarCont
             query: this.input,
         });
     };
+    this.clearSearchInput=function(){
+        this.input = null;
+    }
 }]);
 
 export default sharedModule;
