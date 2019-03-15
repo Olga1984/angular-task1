@@ -11,9 +11,9 @@ export default angular.module('searchPage')
             const { query, filters } = $state.params;
             const filtersArr = (filters && filters.split(',').map(Number)) || [];
             this.results = [];
-            this.activePage = 0;
+            this.query = query;
+            this.filters = filters;
             this.paginatedDocuments = [];
-            this.displayedDocuments = [];
             this.filterGroups = [];
             const resultsPerPage = 8;
             const searchDocuments = (query, filters) => {
@@ -28,12 +28,6 @@ export default angular.module('searchPage')
                         acc[currentChunk].push(item);
                         return acc;
                     }, []);
-                    [this.displayedDocuments] = this.paginatedDocuments;
-                    this.activePage = 0;
-                    this.changePage = (page) => {
-                        this.activePage = page;
-                        this.displayedDocuments = this.paginatedDocuments[page];
-                    };
                 });
             };
             filterPanelService.getFilters().then((response) => {
@@ -41,11 +35,16 @@ export default angular.module('searchPage')
                 this.filterGroups = filterGroups;
                 searchDocuments(query, filtersArr);
                 $transitions.onRetain({
-                    to: 'search',
+                    retained: 'search',
                 }, (transition) => {
-                    const { query, filters} = transition.params();
-                    const filtersArr = (filters && filters.split(',').map(Number)) || [];
-                    searchDocuments(query, filtersArr);
+                    const params = transition.params();
+                    const { query, filters } = params;
+                    if (this.query !== query || this.filters !== filters) {
+                        this.query = query;
+                        this.filters = filters;
+                        const filtersArr = (filters && filters.split(',').map(Number)) || [];
+                        searchDocuments(query, filtersArr);
+                    }
                 });
             });
         }]);
