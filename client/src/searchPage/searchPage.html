@@ -1,7 +1,5 @@
 <div class="search-page">
-    <div class="filter-wrapper">
-        <swt-filter-panel ng-repeat="filterGroup in searchPage.filterGroups" filters="filterGroup"></swt-filter-panel>
-    </div>
+    <swt-filter-panel filter-groups="searchPage.filterGroups"></swt-filter-panel>
     <div class="search-content wk-layout-centered-large">
         <swt-searchbar></swt-searchbar>
         <h4 class="search-count">

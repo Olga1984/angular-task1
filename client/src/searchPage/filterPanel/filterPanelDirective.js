@@ -7,7 +7,7 @@ export default angular.module('searchPage')
             controllerAs: 'filterPanel',
             templateUrl: 'filterPanel.html',
             scope: {
-                filters: '<',
+                filterGroups: '<',
             },
         }
     ));
