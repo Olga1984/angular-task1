@@ -23,8 +23,8 @@ server.use(router);
 
 router.render = function (req, res) {
     if (req._parsedOriginalUrl.query.includes('filtersCount')) {
-        let filters = [];
-        let cache = {};
+        const filters = [];
+        const cache = {};
         res.locals.data.forEach((elem) => {
             const {filterId} = elem;
             if (cache[filterId]) {
@@ -33,7 +33,7 @@ router.render = function (req, res) {
                 cache[filterId] = [elem.filterId];
             }
         });
-        Object.keys(cache).forEach(function (key) {
+        Object.keys(cache).forEach((key) => {
             filters.push({
                 filterId: key,
                 filtersQuantity: cache[key].length,
