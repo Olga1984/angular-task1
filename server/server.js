@@ -6,12 +6,6 @@ const middlewares = jsonServer.defaults();
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
-server.use((req, res, next) => {
-    if (req.method === 'POST') {
-        req.body.createdAt = Date.now()
-    }
-    next()
-});
 server.use(jsonServer.rewriter({
     "/api/documents/popular": "/documents?_sort=popular&_order=desc&_limit=8",
     "/api/documents?search=:search": "/documents?q=:search",
