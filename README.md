@@ -59,7 +59,11 @@ Response:
 ]
 will return necessary count(common) of filters for requested search world
 
+http://localhost:3000/api/documents?search=tech&filtersCount
+
 Method: GET
+Response:
+
 {
   "filters": [
     {
