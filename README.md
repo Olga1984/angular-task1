@@ -57,6 +57,25 @@ Response:
     ]
   }
 ]
+will return necessary count(common) of filters for requested search world
+
+Method: GET
+{
+  "filters": [
+    {
+      "filterId": "5",
+      "filtersQuantity": 2
+    },
+    {
+      "filterId": "6",
+      "filtersQuantity": 4
+    },
+    {
+      "filterId": "7",
+      "filtersQuantity": 1
+    }
+  ]
+}
 
 will return you search data (query is keys independent -> NEWS news News)
 

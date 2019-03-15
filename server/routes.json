@@ -1,6 +1,0 @@
-{       
-    "/api/documents/popular": "/documents?_sort=popular&_order=desc&_limit=8",
-    "/api/documents?search=:search": "/documents?q=:search",
-    "/api/documents?search=:search&filterId=:filter": "/documents?q=:search&filterId=:filter",
-    "/api/*": "/$1"
-}
