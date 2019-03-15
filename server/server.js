@@ -10,7 +10,7 @@ server.use(jsonServer.rewriter({
     "/api/documents/popular": "/documents?_sort=popular&_order=desc&_limit=8",
     "/api/documents?search=:search": "/documents?q=:search",
     "/api/documents?search=:search&filterId=:filter": "/documents?q=:search&filterId=:filter",
-    "/api/documents?filtersCount&search=:search": "/documents?q=:search",
+    "/api/documents?search=:search&filtersCount": "/documents?q=:search",
     "/api/*": "/$1"
 }));
 server.use(router);
