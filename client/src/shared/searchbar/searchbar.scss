@@ -3,5 +3,14 @@
 
   .wk-search-container {
     width: 100%;
+
+    @media (max-width: 37.5rem) {
+      .wk-field-icon-button {
+        height: 80%;
+      }
+    }
+  }
+  .wk-search-submit {
+    width: auto;
   }
 }

@@ -1,8 +1,8 @@
-<form class="wk-search" role="search" ng-submit="searchbar.submitForm($event)">
+<form name="searchForm" class="wk-search" role="search" ng-submit="searchbar.submitForm($event)">
     <div class="wk-search-container wk-field-has-icon">
         <label class="wk-sr-only" for="search-with-clear-btn-input"></label>
-        <input class="wk-search-input" ng-model="searchbar.input" id="search-with-clear-btn-input" type="search" placeholder="Search by Keyword, Topic, or Citation" value="Primary with text and icon button">
+        <input class="wk-search-input" ng-model="searchbar.input" id="search-with-clear-btn-input" type="search" placeholder="Search by Keyword" value="Primary with text and icon button" required>
         <button class="wk-field-icon wk-field-icon-button" type="button" ng-click="searchbar.clearSearchInput()" title="Clear search" aria-label="Clear search"><span class="wk-icon-close-circle" aria-hidden="true"></span></button>
     </div>
-    <button class="wk-search-submit" type="submit"><span class="wk-icon-search"></span></button>
+    <button ng-disabled = "searchForm.$invalid" class="wk-search-submit" type="submit"><span class="wk-icon-search"></span></button>
 </form>
