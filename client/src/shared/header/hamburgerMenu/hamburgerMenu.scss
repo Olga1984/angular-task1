@@ -5,9 +5,10 @@ $hamburger-menu-background: rgba(40, 40, 40, 0.9);
 $hamburger-menu-color: rgb(240, 240, 240);
 
 .hamburger {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
+    z-index: 9000;
     .icon-container {
         position: relative;
         display: flex;
@@ -16,7 +17,7 @@ $hamburger-menu-color: rgb(240, 240, 240);
         width: 40px;
         cursor: pointer;
         outline: none;
-        z-index: 100;
+        z-index: 9100;
         .icon {
             position: relative;
             width: 100%;
@@ -94,4 +95,12 @@ $hamburger-menu-color: rgb(240, 240, 240);
             }
         }
     }  
+}
+
+@media screen and (max-width: 1250px) {
+    .hamburger {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
