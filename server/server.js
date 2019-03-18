@@ -16,7 +16,7 @@ server.use(jsonServer.rewriter({
 server.use(router);
 
 router.render = function (req, res) {
-    if (req._parsedOriginalUrl.query.includes('filtersCount')) {
+    if (req._parsedOriginalUrl.query && req._parsedOriginalUrl.query.includes('filtersCount')) {
         const filters = [];
         const cache = {};
         res.locals.data.forEach((elem) => {
