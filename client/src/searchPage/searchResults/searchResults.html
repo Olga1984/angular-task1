@@ -1,15 +1,5 @@
-<div>
-    <div ng-repeat="item in search.results">
+<div class="search-results">
+    <div ng-repeat="item in documents">
         <swt-document document="item"></swt-document>
-    </div>
-    <div class="page-buttons">
-        <button 
-            class="page-button"
-            ng-class="{ button__active: search.results === value }" 
-            ng-repeat="(key, value) in search.paginatedDocuments" 
-            ng-click="search.changePage(key)"
-        >
-            {{ key + 1 }}
-        </button>
     </div>
 </div>

@@ -10,8 +10,9 @@ export default angular.module('core')
             })
             .state({
                 name: 'search',
-                url: '/search?query',
+                url: '/search?query&filters',
                 templateUrl: 'searchRoute.html',
+                reloadOnSearch: false,
             });
         $locationProvider.html5Mode(true);
     }]);

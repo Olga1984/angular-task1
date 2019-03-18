@@ -1,7 +1,10 @@
 import angular from 'angular';
-import { mockDocuments } from '../../assets/documents';
 
 export default angular.module('home')
-    .controller('PopularDocumentsController', function PopularDocuments() {
-        this.documents = mockDocuments;
-    });
+    .controller('PopularDocumentsController', ['documentService', function PopularDocuments(documentService) {
+        this.documents = [];
+        documentService.getPopularDocuments()
+            .then((res) => {
+                this.documents = res.data;
+            });
+    }]);

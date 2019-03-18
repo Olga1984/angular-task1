@@ -1,19 +1,22 @@
 import angular from 'angular';
-import {mockDocuments} from '../../assets/documents';
+import { SERVER_URL } from '../../config';
 
 export default angular.module('shared')
-    .service('documentService', ['$q', function documentService($q) {
-        const documents = [];
-        function getDocuments() {
-            return $q.resolve(mockDocuments);
+    .service('documentService', ['$http', function documentService($http) {
+        function getPopularDocuments() {
+            return $http.get(`${SERVER_URL}/documents/popular`);
         }
-        function searchDocuments(query) {
-            return $q.resolve(mockDocuments);
+        function searchDocuments(query, filtersArray) {
+            let filterStr = '';
+            if (filtersArray) {
+                filterStr = filtersArray.reduce((acc, filterId) => (
+                    `${acc}&filterId=${filterId}`
+                ), '');
+            }
+            return $http.get(`${SERVER_URL}/documents?search=${query}${filterStr}`);
         }
         return {
-            documents,
-            getDocuments,
+            getPopularDocuments,
             searchDocuments,
         };
     }]);
-
