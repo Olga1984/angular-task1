@@ -1,9 +1,9 @@
-<div class="popular">
-    <header class="popular-header">
+<div>
+    <header>
         <h2>Most popular documents</h2>
     </header>
-    <div class="popular-docs">
-        <div class="popular-article" ng-repeat="item in popular.documents">
+    <div class="wk-layout-50-50">
+        <div class="wk-layout-item" ng-repeat="item in popular.documents">
             <swt-document document="item" headline="false"></swt-document>
         </div>
     </div>
