@@ -1,10 +1,23 @@
 <div class="search-nav">
-    <button 
-        class="page-button"
-        ng-class="{ button__active: activePage == key }" 
-        ng-repeat="(key, value) in paginatedDocuments" 
-        ng-click="handleClick(key)"
-    >
-        {{ key + 1 }}
-    </button>
+    <ul class="wk-pagination">
+        <li ng-class="{ invisible: searchNav.activePage <= 0 }">
+            <a class="wk-button"
+                ui-sref="search({page: searchNav.activePage - 1})" 
+                tabIndex="0"
+            >
+                <span class="wk-icon-arrow-left"></span>
+            </a>
+        </li>
+        <li 
+            ng-repeat="(key, value) in paginatedDocuments" 
+            ng-class="{ 'wk-active': key === searchNav.activePage }"
+        >
+            <a ui-sref="search({page: key})" tabIndex="0">{{ key + 1 }}</a>
+        </li>
+        <li ng-class="{ invisible: searchNav.activePage >= paginatedDocuments.length - 1 }">
+            <a class="wk-button" ui-sref="search({page: searchNav.activePage + 1})" tabIndex="0">
+                <span class="wk-icon-arrow-right"></span>
+            </a>
+        </li>
+    </ul>
 </div>

@@ -4,7 +4,7 @@ export default angular.module('searchPage')
     .directive('swtSearchResults', () => (
         {
             controller: 'SearchResultsController',
-            controllerAs: 'search',
+            controllerAs: 'searchResults',
             templateUrl: 'searchResults.html',
             scope: {
                 documents: '<',

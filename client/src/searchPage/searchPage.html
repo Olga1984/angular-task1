@@ -5,11 +5,9 @@
         <h4 class="search-count">
             <span translate="TOTAL_RESULTS"></span>: {{ searchPage.results.length }}
         </h4>
-        <swt-search-results documents="searchPage.displayedDocuments"></swt-search-results>
+        <swt-search-results documents="searchPage.paginatedDocuments"></swt-search-results>
         <swt-search-nav 
-        paginated-documents="searchPage.paginatedDocuments" 
-        active-page="searchPage.activePage"
-        handle-click="searchPage.changePage"
+        paginated-documents="searchPage.paginatedDocuments"
         ></swt-search-nav>
     </div>
 </div>

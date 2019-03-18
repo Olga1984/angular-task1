@@ -11,6 +11,7 @@ export default angular.module('searchPage')
             : this.filters.splice(filterIndex, 1);
             $state.go('search', {
                 filters: this.filters.join(','),
+                page: '0',
             });
         };
     }]);

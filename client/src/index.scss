@@ -12,6 +12,7 @@
 @import 'wk-components/dropdown/dropdown';
 @import 'wk-components/nav/nav';
 @import 'wk-components/content-filter/content-filter';
+@import 'wk-components/pagination/pagination';
 
 @import 'wk-icons-all-open';
 
@@ -27,6 +28,10 @@
 
 ul {
     list-style: none;
+}
+
+.invisible {
+    visibility: hidden;
 }
 
 @import './core/app.scss';
