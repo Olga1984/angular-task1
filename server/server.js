@@ -22,15 +22,15 @@ router.render = function (req, res) {
         res.locals.data.forEach((elem) => {
             const {filterId} = elem;
             if (cache[filterId]) {
-                cache[filterId].push(elem.filterId);
+                cache[filterId] += 1;
             } else {
-                cache[filterId] = [elem.filterId];
+                cache[filterId] = 1;
             }
         });
         Object.keys(cache).forEach((key) => {
             filters.push({
                 filterId: key,
-                filtersQuantity: cache[key].length,
+                filtersQuantity: cache[key],
             });
         });
         res.jsonp({
