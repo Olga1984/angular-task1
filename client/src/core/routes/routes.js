@@ -10,7 +10,7 @@ export default angular.module('core')
             })
             .state({
                 name: 'search',
-                url: '/search?query&filters',
+                url: '/search?query&filters&page',
                 templateUrl: 'searchRoute.html',
                 reloadOnSearch: false,
             });

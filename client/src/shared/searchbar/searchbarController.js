@@ -7,6 +7,7 @@ sharedModule.controller('SearchbarController', ['$state', function SearchbarCont
         $event.preventDefault();
         $state.go('search', {
             query: this.input,
+            page: '0',
         });
     };
     this.clearSearchInput = () => {

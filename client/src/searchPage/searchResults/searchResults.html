@@ -1,5 +1,5 @@
 <div class="search-results">
-    <div ng-repeat="item in documents">
+    <div ng-repeat="item in documents[searchResults.activePage]">
         <swt-document document="item"></swt-document>
     </div>
 </div>
