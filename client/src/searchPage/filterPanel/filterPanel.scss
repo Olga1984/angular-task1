@@ -1,21 +1,19 @@
 .filter-wrapper {
+  max-width: 65rem;
+  width: 100%;
+  margin: 0 auto;
+  position: static;
+  @include breakpoint($wk-target-max-desktop) {
     width: 170px;
     position: absolute;
     left: 0;
-    .filter-panel {
-        margin: 50px 0 0 30px;
-    }
-}
+  }
 
-@media screen and (max-width: 1450px) {
-    .filter-wrapper {
-        max-width: 65rem;
-        width: 100%;
-        margin: 0 auto;
-        position: static;
-        .filter-panel {
-            max-width: 600px;
-            margin: 10px auto;
-        }
+  .filter-panel {
+    max-width: 600px;
+    margin: 10px auto;
+    @include breakpoint($wk-target-max-desktop) {
+      margin: 50px 0 0 30px;
     }
+  }
 }
