@@ -5,7 +5,13 @@ const middlewares = jsonServer.defaults();
 const fs = require('fs');
 
 
-const data = JSON.parse(fs.readFileSync('./db.json', { encoding: 'utf8' }));
+let data = null;
+fs.readFile('./db.json', { encoding: 'utf8' }, (err, content) => {
+    if (err) {
+        throw err;
+    }
+    data = JSON.parse(content);
+});
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
