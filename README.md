@@ -13,7 +13,7 @@ You can send requests to http://localhost:3000.
    * npm install
    * npm run start
 
-## Angularjs app will start on port 3001
-A new browser window should open automatically and take you to http://localhost:3001. 
+## Angularjs app will start on port 5000
+A new browser window should open automatically and take you to http://localhost:5000. 
 
 For a list of possible server routes please see the following wiki page: https://github.com/Olga1984/angular-task1/wiki/Server-configuration
