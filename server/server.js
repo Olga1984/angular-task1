@@ -21,8 +21,11 @@ server.use(jsonServer.rewriter({
 server.use((req, res, next) => {
     const { documents } = data;
     const { q: searchQuery, filtersCount } = req.query;
-    if (!filtersCount) {
+    if (typeof filtersCount !== 'string') {
         return next();
+    }
+    if (filtersCount !== 'true') {
+        return res.sendStatus(400);
     }
     const cache = Object.create(null);
     const regex = new RegExp(searchQuery, 'i');
