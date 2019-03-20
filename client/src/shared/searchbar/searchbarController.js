@@ -5,16 +5,17 @@ sharedModule.controller('SearchbarController', ['$state', function SearchbarCont
     this.input = $state.params.query || '';
     this.submitForm = ($event) => {
         $event.preventDefault();
-        if(this.input) {
+        if (!this.input) {
+            return;
+        }
         $state.go('search', {
             query: this.input,
             page: '0',
         });
-        }
     };
     this.clearSearchInput = () => {
         this.input = '';
-    }
+    };
 }]);
 
 export default sharedModule;
