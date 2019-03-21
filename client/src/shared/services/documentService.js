@@ -6,14 +6,18 @@ export default angular.module('shared')
         function getPopularDocuments() {
             return $http.get(`${SERVER_URL}/documents/popular`);
         }
-        function searchDocuments(query, filtersArray) {
+        function searchDocuments(query, filtersArray, countFilters) {
             let filterStr = '';
+            let filtersCount = '';
             if (filtersArray) {
                 filterStr = filtersArray.reduce((acc, filterId) => (
                     `${acc}&filterId=${filterId}`
                 ), '');
             }
-            return $http.get(`${SERVER_URL}/documents?search=${query}${filterStr}`);
+            if (countFilters === true) {
+                filtersCount = '&filtersCount=true';
+            }
+            return $http.get(`${SERVER_URL}/documents?search=${query}${filterStr}${filtersCount}`);
         }
         return {
             getPopularDocuments,
