@@ -1,8 +1,8 @@
 <div class="filter-wrapper">
-    <div ng-repeat="filters in filterGroups">
+    <div ng-repeat="filters in filterPanel.filterGroups">
         <div class="filter-panel wk-content-filter">
             <ul class="wk-content-filter-list">
-                <li ng-repeat="filter in filters.values" ng-class="{ 'wk-active': filterPanel.filters.includes(filter.id) }" ng-hide="!filterPanel.filtersCount[filter.id]">
+                <li ng-repeat="filter in filters.values" ng-class="{ 'wk-active': filterPanel.activeFilters.includes(filter.id) }" ng-hide="!filterPanel.filtersCount[filter.id]">
                     <a ng-click="filterPanel.toggleFilter(filter.id)">
                         <span class="wk-badge">{{ filterPanel.filtersCount[filter.id] }}</span><span class="wk-content-filter-label">{{ filter.name }}</span>
                     </a>
