@@ -8,6 +8,8 @@ export default angular.module('searchPage')
             templateUrl: 'filterPanel.html',
             scope: {
                 filterGroups: '<',
+                filtersCount: '<',
             },
+            bindToController: true,
         }
     ));
