@@ -19,7 +19,6 @@ export default angular.module('core')
                 },
                 templateUrl: 'searchRoute.html',
                 reloadOnSearch: false,
-
             });
         $locationProvider.html5Mode(true);
     }]);
