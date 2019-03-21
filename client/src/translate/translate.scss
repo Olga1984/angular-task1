@@ -1,14 +1,18 @@
 .wk-nav.wk-green-icons.translate {
   @include wk-shown;
+
   background-color: transparent;
   float: right;
   margin-top: wk-rem(19px);
   width: auto;
+
   li > a, a:hover {
     color: $wk-header-nav-color;
   }
+
   .wk-dropdown .wk-dropdown-menu {
     position: absolute;
+
     a {
       color: $wk-header-nav-link-color;
     }

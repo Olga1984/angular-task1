@@ -1,14 +1,11 @@
 .search-page {
     position: relative;
 
-    .wk-layout-centered-large {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1450px) {
-    .search-page {
+    @include breakpoint($wk-target-max-desktop) {
         display: flex;
         flex-direction: column;
+    }
+    .wk-layout-centered-large {
+        width: 100%;
     }
 }
