@@ -9,6 +9,7 @@ $hamburger-menu-color: rgb(240, 240, 240);
     top: 0;
     right: 0;
     z-index: 9000;
+
     @include breakpoint($wk-target-max-desktop) {
         position: relative;
         display: flex;

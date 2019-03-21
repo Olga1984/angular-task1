@@ -1,5 +1,6 @@
 .search-page {
     position: relative;
+
     @include breakpoint($wk-target-max-desktop) {
         display: flex;
         flex-direction: column;

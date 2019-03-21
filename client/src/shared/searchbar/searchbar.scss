@@ -3,6 +3,7 @@
 
   .wk-search-container {
     width: 100%;
+
     @include breakpoint($wk-target-max-desktop) {
       .wk-field-icon-button {
         height: 80%;
