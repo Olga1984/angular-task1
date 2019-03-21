@@ -9,6 +9,7 @@ export default angular.module('searchPage')
             scope: {
                 filterGroups: '<',
                 filtersCount: '<',
+                activeFilters: '<',
             },
             bindToController: true,
         }

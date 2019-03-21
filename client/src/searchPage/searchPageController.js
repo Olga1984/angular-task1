@@ -1,4 +1,5 @@
 import angular from 'angular';
+import { parseFilters } from '../helpers';
 
 export default angular.module('searchPage')
     .controller('SearchPageController', [
@@ -11,7 +12,7 @@ export default angular.module('searchPage')
             this.results = [];
             this.query = $state.params.query;
             this.filters = $state.params.filters;
-            this.parseFilters = () => (this.filters && this.filters.split(',').map(Number)) || [];
+            this.filtersArr = parseFilters(this.filters);
             this.filtersCount = {};
             this.paginatedDocuments = [];
             this.filterGroups = [];
@@ -30,14 +31,14 @@ export default angular.module('searchPage')
                         return acc;
                     }, []);
                     const availableFilters = [];
-                    this.parseFilters().forEach((filter) => {
+                    this.filtersArr.forEach((filter) => {
                         if (!this.filtersCount[filter]) {
                             return;
                         }
                         availableFilters.push(filter);
                     });
                     const availableFiltersStr = availableFilters.join(',');
-                    if (availableFiltersStr !== this.filters) {
+                    if (availableFiltersStr && availableFiltersStr !== this.filters) {
                         $state.go('search', {
                             filters: availableFiltersStr,
                         });
@@ -47,7 +48,7 @@ export default angular.module('searchPage')
             filterPanelService.getFilters().then((response) => {
                 const filterGroups = response.data;
                 this.filterGroups = filterGroups;
-                searchDocuments(this.query, this.parseFilters(), true);
+                searchDocuments(this.query, this.filtersArr, true);
                 $transitions.onRetain({
                     retained: 'search',
                 }, (transition) => {
@@ -55,9 +56,10 @@ export default angular.module('searchPage')
                     const { query: newQuery, filters: newFilters } = params;
                     if (this.query !== newQuery || this.filters !== newFilters) {
                         this.filters = newFilters;
+                        this.filtersArr = parseFilters(this.filters);
                         const requestFiltersCount = this.query !== newQuery;
                         this.query = newQuery;
-                        searchDocuments(newQuery, this.parseFilters(), requestFiltersCount);
+                        searchDocuments(newQuery, this.filtersArr, requestFiltersCount);
                     }
                 });
             });
