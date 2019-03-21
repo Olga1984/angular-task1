@@ -6,11 +6,7 @@ export default angular.module('searchPage')
         function getFilters() {
             return $http.get(`${SERVER_URL}/filters`);
         }
-        function getFiltersCount(query) {
-            return $http.get(`${SERVER_URL}/documents?search=${query}&filtersCount=true`);
-        }
         return {
             getFilters,
-            getFiltersCount,
         };
     }]);
