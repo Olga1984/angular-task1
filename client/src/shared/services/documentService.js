@@ -6,7 +6,7 @@ export default angular.module('shared')
         function getPopularDocuments() {
             return $http.get(`${SERVER_URL}/documents/popular`);
         }
-        function searchDocuments(query, filtersArray, countFilters) {
+        function searchDocuments(query, filtersArray, shouldCountFilters) {
             let filterStr = '';
             let filtersCount = '';
             if (filtersArray) {
@@ -14,7 +14,7 @@ export default angular.module('shared')
                     `${acc}&filterId=${filterId}`
                 ), '');
             }
-            if (countFilters === true) {
+            if (shouldCountFilters === true) {
                 filtersCount = '&filtersCount=true';
             }
             return $http.get(`${SERVER_URL}/documents?search=${query}${filterStr}${filtersCount}`);

@@ -17,8 +17,8 @@ export default angular.module('searchPage')
             this.paginatedDocuments = [];
             this.filterGroups = [];
             const resultsPerPage = 8;
-            const searchDocuments = (query, filters, countFilters) => {
-                documentService.searchDocuments(query, filters, countFilters).then((response) => {
+            const searchDocuments = (query, filters, shouldCountFilters) => {
+                documentService.searchDocuments(query, filters, shouldCountFilters).then((response) => {
                     const { documents, filtersCount } = response.data;
                     this.filtersCount = filtersCount || this.filtersCount;
                     this.results = documents;
@@ -71,9 +71,9 @@ export default angular.module('searchPage')
                     if (this.query !== newQuery || this.filters !== newFilters) {
                         this.filters = newFilters;
                         this.filtersArr = parseFilters(this.filters);
-                        const requestFiltersCount = this.query !== newQuery;
+                        const shouldRequestFiltersCount = this.query !== newQuery;
                         this.query = newQuery;
-                        searchDocuments(newQuery, this.filtersArr, requestFiltersCount);
+                        searchDocuments(newQuery, this.filtersArr, shouldRequestFiltersCount);
                     }
                 });
             });

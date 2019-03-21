@@ -24,18 +24,18 @@ server.use(jsonServer.rewriter({
 
 server.use('/documents', (req, res, next) => {
     const { documents } = data;
-    const { search, filterId, filtersCount } = req.query;
-    if (!search) {
+    const { search: searchStr, filterId, filtersCount: shouldCountFilters } = req.query;
+    if (!searchStr) {
         return next();
     }
     const result = {
         documents: [],
     };
-    const regex = new RegExp(search, 'i');
+    const regex = new RegExp(searchStr, 'i');
     const filtersArr = Array.isArray(filterId)
     ? filterId.map(Number)
     : [Number(filterId)];
-    if (filtersCount === 'true') {
+    if (shouldCountFilters === 'true') {
         result.filtersCount = {};
     }
     documents.forEach((document) => {
@@ -43,7 +43,7 @@ server.use('/documents', (req, res, next) => {
         if (!regex.test(headline) && !regex.test(text)) {
             return;
         }
-        if (filtersCount === 'true') {
+        if (shouldCountFilters === 'true') {
             result.filtersCount[documentFilter] = result.filtersCount[documentFilter] + 1 || 1;
         }
         if (filterId && !filtersArr.includes(documentFilter)) {
@@ -52,7 +52,7 @@ server.use('/documents', (req, res, next) => {
         result.documents.push(document);
     });
     if (result.documents.length === 0) {
-        if (filtersCount === 'true') {
+        if (shouldCountFilters === 'true') {
             result.filtersCount = null;
         }
         res.status(404);
