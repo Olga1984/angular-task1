@@ -51,6 +51,12 @@ server.use('/documents', (req, res, next) => {
         }
         result.documents.push(document);
     });
+    if (result.documents.length === 0) {
+        if (filtersCount === 'true') {
+            result.filtersCount = null;
+        }
+        res.status(404);
+    }
     res.jsonp(result);
 });
 

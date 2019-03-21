@@ -43,6 +43,20 @@ export default angular.module('searchPage')
                             filters: availableFiltersStr,
                         });
                     }
+                }).catch((err) => {
+                    this.results = [];
+                    this.paginatedDocuments = [];
+                    if (err.data.filtersCount === null) {
+                        this.filtersCount = {};
+                        return;
+                    }
+                    this.filtersCount = err.data.filtersCount || this.filtersCount;
+                    if (this.filters === '') {
+                        return;
+                    }
+                    $state.go('search', {
+                        filters: '',
+                    });
                 });
             };
             filterPanelService.getFilters().then((response) => {
