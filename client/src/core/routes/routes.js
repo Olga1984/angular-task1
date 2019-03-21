@@ -11,6 +11,12 @@ export default angular.module('core')
             .state({
                 name: 'search',
                 url: '/search?query&filters&page',
+                params: {
+                    page: {
+                        value: '0',
+                        squash: true,
+                    },
+                },
                 templateUrl: 'searchRoute.html',
                 reloadOnSearch: false,
             });
