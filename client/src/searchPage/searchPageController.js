@@ -13,12 +13,14 @@ export default angular.module('searchPage')
             this.results = [];
             this.query = query;
             this.filters = filters;
+            this.filtersCount = {};
             this.paginatedDocuments = [];
             this.filterGroups = [];
             const resultsPerPage = 8;
-            const searchDocuments = (query, filters) => {
-                documentService.searchDocuments(query, filters).then((response) => {
-                    const documents = response.data;
+            const searchDocuments = (query, filters, countFilters) => {
+                documentService.searchDocuments(query, filters, countFilters).then((response) => {
+                    const { documents, filtersCount } = response.data;
+                    this.filtersCount = filtersCount || this.filtersCount;
                     this.results = documents;
                     this.paginatedDocuments = documents.reduce((acc, item, indx) => {
                         const currentChunk = Math.trunc(indx / resultsPerPage);
@@ -33,17 +35,18 @@ export default angular.module('searchPage')
             filterPanelService.getFilters().then((response) => {
                 const filterGroups = response.data;
                 this.filterGroups = filterGroups;
-                searchDocuments(query, filtersArr);
+                searchDocuments(query, filtersArr, true);
                 $transitions.onRetain({
                     retained: 'search',
                 }, (transition) => {
                     const params = transition.params();
                     const { query, filters } = params;
                     if (this.query !== query || this.filters !== filters) {
-                        this.query = query;
                         this.filters = filters;
                         const filtersArr = (filters && filters.split(',').map(Number)) || [];
-                        searchDocuments(query, filtersArr);
+                        const requestFiltersCount = this.query !== query;
+                        searchDocuments(query, filtersArr, requestFiltersCount);
+                        this.query = query;
                     }
                 });
             });
