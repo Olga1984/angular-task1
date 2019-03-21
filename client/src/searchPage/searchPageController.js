@@ -8,11 +8,10 @@ export default angular.module('searchPage')
         'filterPanelService',
         '$transitions',
         function SearchPageController($translate, $state, documentService, filterPanelService, $transitions) {
-            const { query, filters } = $state.params;
-            const filtersArr = (filters && filters.split(',').map(Number)) || [];
             this.results = [];
-            this.query = query;
-            this.filters = filters;
+            this.query = $state.params.query;
+            this.filters = $state.params.filters;
+            this.parseFilters = () => (this.filters && this.filters.split(',').map(Number)) || [];
             this.filtersCount = {};
             this.paginatedDocuments = [];
             this.filterGroups = [];
@@ -30,23 +29,35 @@ export default angular.module('searchPage')
                         acc[currentChunk].push(item);
                         return acc;
                     }, []);
+                    const availableFilters = [];
+                    this.parseFilters().forEach((filter) => {
+                        if (!this.filtersCount[filter]) {
+                            return;
+                        }
+                        availableFilters.push(filter);
+                    });
+                    const availableFiltersStr = availableFilters.join(',');
+                    if (availableFiltersStr !== this.filters) {
+                        $state.go('search', {
+                            filters: availableFiltersStr,
+                        });
+                    }
                 });
             };
             filterPanelService.getFilters().then((response) => {
                 const filterGroups = response.data;
                 this.filterGroups = filterGroups;
-                searchDocuments(query, filtersArr, true);
+                searchDocuments(this.query, this.parseFilters(), true);
                 $transitions.onRetain({
                     retained: 'search',
                 }, (transition) => {
                     const params = transition.params();
-                    const { query, filters } = params;
-                    if (this.query !== query || this.filters !== filters) {
-                        this.filters = filters;
-                        const filtersArr = (filters && filters.split(',').map(Number)) || [];
-                        const requestFiltersCount = this.query !== query;
-                        searchDocuments(query, filtersArr, requestFiltersCount);
-                        this.query = query;
+                    const { query: newQuery, filters: newFilters } = params;
+                    if (this.query !== newQuery || this.filters !== newFilters) {
+                        this.filters = newFilters;
+                        const requestFiltersCount = this.query !== newQuery;
+                        this.query = newQuery;
+                        searchDocuments(newQuery, this.parseFilters(), requestFiltersCount);
                     }
                 });
             });
